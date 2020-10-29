@@ -1,1 +1,1 @@
-curl -v -b cookie -X PUT -F "space_template[zip]=@/Users/thomaspiccolo/Documents/GitHub/TheMapleWoodRoom/TheMapleWoodRoom/template.zip" -F "space_template[game_engine_version]=20194" https://account.altvr.com/api/space_templates/1592943491388801291.json
+curl -v -b cookie -X PUT -F "space_template[zip]=@/Users/thomaspiccolo/Documents/GitHub/TheMapleWoodRoom/TheMapleWoodRoom/template.zip" -F "space_template[game_engine_version]=20194" https://account.altvr.com/api/space_templates/1593020453352374282.json
