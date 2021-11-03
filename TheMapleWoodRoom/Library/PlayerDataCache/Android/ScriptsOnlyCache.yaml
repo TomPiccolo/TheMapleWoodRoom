@@ -1,16 +1,30 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Unity.EditorCoroutines.Editor.dll:
-    - AltspaceBuildWindow
-    - UserPreferences
+    Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.UniversalProjectSettings
+    Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.ForwardRendererData
+    - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusLoader
+    - Unity.XR.Oculus.OculusSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UploaderTool_Editor.dll:
+    - Altspace.Uploader.SpaceTemplateUploaderWindow
   sceneClasses:
-    Assets/Altspace/Export/template.unity:
+    Assets/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -37,8 +51,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
   scriptHashData: []
   platform: 13
   scenePathNames:
-  - Assets/Altspace/Export/template.unity
-  playerPath: /Users/thomaspiccolo/Documents/GitHub/TheMapleWoodRoom/TheMapleWoodRoom/AltspaceTemp/AssetBundles/Android/template.unity2018_1
+  - Assets/Scenes/SampleScene.unity
+  playerPath: /Users/thomaspiccolo/Documents/GitHub/TheMapleWoodRoom/TheMapleWoodRoom/Assets/AltspaceUploader/Temp/Export~/staging/AssetBundles/Android/1593020453352374282_themaplewoodroom1-1599
